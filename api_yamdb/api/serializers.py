@@ -4,7 +4,6 @@ from rest_framework.relations import SlugRelatedField
 from rest_framework.serializers import (CharField, CurrentUserDefault,
                                         IntegerField, ModelSerializer,
                                         Serializer, SlugField, ValidationError)
-
 from reviews.models import Category, Comment, Genre, Review, Title, User
 
 
